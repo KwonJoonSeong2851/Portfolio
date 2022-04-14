@@ -8,5 +8,5 @@
 ![image](https://user-images.githubusercontent.com/70801500/163454567-707c93b2-f192-4f54-8f7c-2c50a4c48dea.png)
 
 # **데이터베이스 처리 구조**
-![image](https://user-images.githubusercontent.com/70801500/163455204-bac4a57d-6d8d-427a-88f3-4c69dae1080e.png)
+![image](https://user-images.githubusercontent.com/70801500/163455261-981bbeb5-45e3-4657-878d-18383dc827d0.png)
 
