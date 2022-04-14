@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Network">
+      <UniqueIdentifier>{c134b0c5-ab4b-46f1-b3b5-17ed261d7800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{6c558a3b-4a8d-48fc-bbf7-322e701b3047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\tinyxml">
+      <UniqueIdentifier>{8db18b90-0daf-464b-9514-f337bd29b790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Packet">
+      <UniqueIdentifier>{66160926-aa6f-4405-a80d-9d02dc831761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database">
+      <UniqueIdentifier>{b0748e4d-eb65-415b-bee9-b2e1caf1fc2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database\Query">
+      <UniqueIdentifier>{6e69c5e3-0dc5-44c4-a2bb-afe107078ec0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ServerLibrary.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Util\Type.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Singleton.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Clock.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Util.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Lock.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Thread.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Logger.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ThreadJobQueue.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Task.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Server.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ServerIOCP.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Session.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\IOCPSession.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\SessionManager.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\HeartBeat.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\TerminalSession.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Terminal.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\TerminalManager.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\Stream.h">
+      <Filter>Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketHeader.h">
+      <Filter>Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketClass.h">
+      <Filter>Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketAnalyer.h">
+      <Filter>Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketFactory.h">
+      <Filter>Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\Package.h">
+      <Filter>Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\ContentsProcess.h">
+      <Filter>Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Shutdown.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\tinyxml\tinystr.h">
+      <Filter>Util\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\tinyxml\tinyxml.h">
+      <Filter>Util\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Config.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Database\ADODatabase.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="Database\Database.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="Database\DBManager.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="Database\Query.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="Database\QueryRecord.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="Database\QueryStatement.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="Database\Query\QI_DB_REQ_ID_PW.h">
+      <Filter>Database\Query</Filter>
+    </ClInclude>
+    <ClInclude Include="Database\Query\QI_DB_REQ_SIGNIN.h">
+      <Filter>Database\Query</Filter>
+    </ClInclude>
+    <ClInclude Include="Database\Query\QI_DB_REQ_USERINFO.h">
+      <Filter>Database\Query</Filter>
+    </ClInclude>
+    <ClInclude Include="Database\Query\QI_DB_REQ_GAMERESULT.h">
+      <Filter>Database\Query</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\Protocol.h">
+      <Filter>Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="Database\Query\QI_DB_REQ_TUTORIAL.h">
+      <Filter>Database\Query</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\MainProcess.h">
+      <Filter>Network\Packet</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Util\Lock.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Clock.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Thread.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Logger.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Task.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Server.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ServerIOCP.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Session.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\IOCPSession.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\SessionManager.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\TerminalSession.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\HeartBeat.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Terminal.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\TerminalManager.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Packet\Stream.cpp">
+      <Filter>Network\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Packet\ContentsProcess.cpp">
+      <Filter>Network\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\tinyxml\tinystr.cpp">
+      <Filter>Util\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\tinyxml\tinyxml.cpp">
+      <Filter>Util\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\tinyxml\tinyxmlerror.cpp">
+      <Filter>Util\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\tinyxml\tinyxmlparser.cpp">
+      <Filter>Util\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Config.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Database\ADODatabase.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="Database\DBManager.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="Database\Query.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="Database\QueryRecord.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="Database\QueryStatement.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="NDG_Server_Main.cpp" />
+    <ClCompile Include="Network\Packet\Protocol.cpp">
+      <Filter>Network\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Packet\MainProcess.cpp">
+      <Filter>Network\Packet</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

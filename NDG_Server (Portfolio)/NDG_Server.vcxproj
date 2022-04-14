@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{9F18B718-7D26-4095-AEC3-DFB5045B3579}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>NDGServer</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Program Files\Common Files\System\ado;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <HeapCommitSize>90000</HeapCommitSize>
+      <LargeAddressAware>true</LargeAddressAware>
+      <StackReserveSize>9000000</StackReserveSize>
+      <StackCommitSize>9000000</StackCommitSize>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Database\ADODatabase.h" />
+    <ClInclude Include="Database\Database.h" />
+    <ClInclude Include="Database\DBManager.h" />
+    <ClInclude Include="Database\Query.h" />
+    <ClInclude Include="Database\QueryRecord.h" />
+    <ClInclude Include="Database\QueryStatement.h" />
+    <ClInclude Include="Database\Query\QI_DB_REQ_GAMERESULT.h" />
+    <ClInclude Include="Database\Query\QI_DB_REQ_ID_PW.h" />
+    <ClInclude Include="Database\Query\QI_DB_REQ_SIGNIN.h" />
+    <ClInclude Include="Database\Query\QI_DB_REQ_TUTORIAL.h" />
+    <ClInclude Include="Database\Query\QI_DB_REQ_USERINFO.h" />
+    <ClInclude Include="Network\HeartBeat.h" />
+    <ClInclude Include="Network\IOCPSession.h" />
+    <ClInclude Include="Network\Packet\ContentsProcess.h" />
+    <ClInclude Include="Network\Packet\MainProcess.h" />
+    <ClInclude Include="Network\Packet\Package.h" />
+    <ClInclude Include="Network\Packet\PacketAnalyer.h" />
+    <ClInclude Include="Network\Packet\PacketClass.h" />
+    <ClInclude Include="Network\Packet\PacketFactory.h" />
+    <ClInclude Include="Network\Packet\PacketHeader.h" />
+    <ClInclude Include="Network\Packet\Protocol.h" />
+    <ClInclude Include="Network\Packet\Stream.h" />
+    <ClInclude Include="Network\Server.h" />
+    <ClInclude Include="Network\ServerIOCP.h" />
+    <ClInclude Include="Network\Session.h" />
+    <ClInclude Include="Network\SessionManager.h" />
+    <ClInclude Include="Network\Shutdown.h" />
+    <ClInclude Include="Network\Terminal.h" />
+    <ClInclude Include="Network\TerminalManager.h" />
+    <ClInclude Include="Network\TerminalSession.h" />
+    <ClInclude Include="ServerLibrary.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Util\Clock.h" />
+    <ClInclude Include="Util\Config.h" />
+    <ClInclude Include="Util\Lock.h" />
+    <ClInclude Include="Util\Logger.h" />
+    <ClInclude Include="Util\Singleton.h" />
+    <ClInclude Include="Util\Task.h" />
+    <ClInclude Include="Util\ThreadJobQueue.h" />
+    <ClInclude Include="Util\tinyxml\tinystr.h" />
+    <ClInclude Include="Util\tinyxml\tinyxml.h" />
+    <ClInclude Include="Util\Type.h" />
+    <ClInclude Include="Util\Util.h" />
+    <ClInclude Include="Util\Thread.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Database\ADODatabase.cpp" />
+    <ClCompile Include="Database\DBManager.cpp" />
+    <ClCompile Include="Database\Query.cpp" />
+    <ClCompile Include="Database\QueryRecord.cpp" />
+    <ClCompile Include="Database\QueryStatement.cpp" />
+    <ClCompile Include="NDG_Server_Main.cpp" />
+    <ClCompile Include="Network\HeartBeat.cpp" />
+    <ClCompile Include="Network\IOCPSession.cpp" />
+    <ClCompile Include="Network\Packet\ContentsProcess.cpp" />
+    <ClCompile Include="Network\Packet\MainProcess.cpp" />
+    <ClCompile Include="Network\Packet\Protocol.cpp" />
+    <ClCompile Include="Network\Packet\Stream.cpp" />
+    <ClCompile Include="Network\Server.cpp" />
+    <ClCompile Include="Network\ServerIOCP.cpp" />
+    <ClCompile Include="Network\Session.cpp" />
+    <ClCompile Include="Network\SessionManager.cpp" />
+    <ClCompile Include="Network\Terminal.cpp" />
+    <ClCompile Include="Network\TerminalManager.cpp" />
+    <ClCompile Include="Network\TerminalSession.cpp" />
+    <ClCompile Include="Util\Clock.cpp" />
+    <ClCompile Include="Util\Config.cpp" />
+    <ClCompile Include="Util\Lock.cpp" />
+    <ClCompile Include="Util\Logger.cpp" />
+    <ClCompile Include="Util\Task.cpp" />
+    <ClCompile Include="Util\Thread.cpp" />
+    <ClCompile Include="Util\tinyxml\tinystr.cpp" />
+    <ClCompile Include="Util\tinyxml\tinyxml.cpp" />
+    <ClCompile Include="Util\tinyxml\tinyxmlerror.cpp" />
+    <ClCompile Include="Util\tinyxml\tinyxmlparser.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
